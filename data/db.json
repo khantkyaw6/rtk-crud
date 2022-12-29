@@ -1,0 +1,37 @@
+{
+  "todo-user": [
+    {
+      "id": 1,
+      "name": "Leanne Graham",
+      "username": "Bret",
+      "email": "Sincere@april.biz",
+      "todoList": {
+        "title1": "go to gym",
+        "title2": "grab a snack"
+      },
+      "phone": "1-770-736-8031 x56442"
+    },
+    {
+      "id": 2,
+      "name": "Ervin Howell",
+      "username": "Antonette",
+      "email": "Shanna@melissa.tv",
+      "todoList": {
+        "title1": "go to gym",
+        "title2": "grab a snack"
+      },
+      "phone": "010-692-6593 x09125"
+    },
+    {
+      "name": "Khant Kyaw",
+      "username": "Pandora",
+      "phone": "987778698",
+      "email": "kk123@gmail.com",
+      "todoList": {
+        "title1": "Code",
+        "title2": "Play Game"
+      },
+      "id": 3
+    }
+  ]
+}
