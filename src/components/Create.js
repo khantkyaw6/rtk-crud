@@ -29,7 +29,7 @@ const Create = () => {
 
   return (
     <div className='create'>
-      <h2>Create a new Todo user</h2>
+      <h2>Create a new user</h2>
       <form onSubmit={submitHandler}>
         <label>Real Name:</label>
         <input type='text' required onChange={(e) => setName(e.target.value)} />
@@ -41,13 +41,13 @@ const Create = () => {
         />
         <label>Email:</label>
         <input
-          type='text'
+          type='email'
           required
           onChange={(e) => setEmail(e.target.value)}
         />
         <label>Phone:</label>
         <input
-          type='text'
+          type='phone'
           required
           onChange={(e) => setPhone(e.target.value)}
         />
@@ -70,34 +70,3 @@ const Create = () => {
 };
 
 export default Create;
-
-{
-  /* <div className='create'>
-<h2>Add a New Blog</h2>
-<form onSubmit={submitHandler}>
-  <label>Blog title:</label>
-  <input
-    type='text'
-    required
-    value={title}
-    onChange={(e) => setTitle(e.target.value)}
-  />
-  <label>Blog body:</label>
-  <textarea
-    required
-    value={body}
-    onChange={(e) => setBody(e.target.value)}
-  ></textarea>
-  <label>Blog author:</label>
-  <select>
-    <option value='mario'>mario</option>
-    <option value='yoshi'>yoshi</option>
-  </select>
-  {!ispending && <button type='submit'>Add Blog</button>}
-  {ispending && (
-    <button disabled type='submit'>
-      Blog Adding...
-    </button>
-  )}
-</form> */
-}
