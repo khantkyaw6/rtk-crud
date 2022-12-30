@@ -32,6 +32,28 @@
         "title2": "Play Game"
       },
       "id": 3
+    },
+    {
+      "name": "Captain America",
+      "username": "Steve Roger",
+      "phone": "0979789868989",
+      "email": "capsteve.america@gmail.com",
+      "todoList": {
+        "title1": "become a captain",
+        "title2": "go to the war"
+      },
+      "id": 4
+    },
+    {
+      "name": "Kaung Si",
+      "username": "Cohi",
+      "phone": "0987909899",
+      "email": "kohe@gmail.com",
+      "todoList": {
+        "title1": "sleep",
+        "title2": "code"
+      },
+      "id": 5
     }
   ]
 }
